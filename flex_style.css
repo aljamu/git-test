@@ -1,0 +1,36 @@
+.greenBackground {
+    height: 500px; /*remove later */
+    margin: 20px 15px;
+    background-color: rgb(0, 207, 0);
+    padding: 15px;
+}
+.flex-container {
+    padding: 5px;
+    height: 75x;
+    border-style: solid;
+    border-color: blue;
+    background-color: lightblue;
+    display: flex;
+}
+.flex-container .box1, .box2, .box3 {
+    margin: auto 5px;
+    padding: 5px;
+    height: 50px;
+    border-style: solid;
+    border-color: orange;
+    background-color: peachpuff;
+    flex: 1;
+}
+.box2 {
+    display: flex;
+}
+.box2 div {
+    height: 35px;
+    border-style: solid;
+    border-color: blue;
+    margin: auto 5px;
+    background-color: aqua;
+    flex: 1;
+}
+
+
